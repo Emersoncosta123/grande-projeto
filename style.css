@@ -1,0 +1,220 @@
+body{
+   width: 100%;
+}
+
+
+ section.main{
+ background-image: url('images/bg.svg') ;
+ background-position: center;
+ 
+ min-height: 700px;
+ padding: 20px 0  80px 0;
+ }
+
+.logo-menu{
+align-items: center;
+
+}
+
+.itens-menu{
+display: inline-block;
+margin-left: 700px;
+margin-top: -40px;
+max-width: 100%;
+}
+
+.itens-menu a{
+color: rgb(241, 241, 241);
+text-decoration: none;
+display: inline;
+float: left;
+margin-right: 20px;
+align-items: normal;
+}
+
+.itens-menu a:hover{
+border-bottom: solid rgb(50, 4, 134);
+}
+
+.itens-menu a.contact-btn{
+ background-color: rgb(38, 38, 155);
+ float: left;
+ padding: 10px;
+margin-top: -10px;
+border-radius: 10px;
+}
+
+.itens-menu a.contact-btn:hover{
+   border: 0px;
+   background-color: rgb(66, 34, 228);
+}
+
+.mackup{
+display: inline-block; 
+color: rgb(246, 251, 251);
+margin-left: 50px;
+margin-top: 10px;
+padding-left: 30px;
+max-width: 100%;
+
+}
+
+.mackup h1{
+ font-size: 50px;
+}
+
+.mackup img{
+ max-width: 100%;
+ margin-left: 250px;
+ padding-top: 30px;
+}
+
+section.marcas img{
+width: 290px;
+}
+
+.letra {
+   margin-left: 180px;
+   text-align: center;
+}
+
+section.marcas{
+   padding: 100px 0;
+}
+
+section.porque-nos{
+   padding: 40px 0;
+   background-color: rgb(224, 226, 232);
+   text-align: center;
+}
+
+section.porque-nos > .center > h2 {
+   font-size: 64px;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+section.porque-nos > .center > p{
+   font-size: 24px;
+   color: #3e2424;
+   text-align: center;
+   width: 100%;
+   
+}
+
+.diferencias {
+   display: inline-block;
+   margin-top: 50px;
+}
+
+.box-diferenciais{
+   display: inline-block;
+   box-shadow: 0px 20px 40px #100707;
+   width: 19%;
+   margin-right: 3%;
+   padding: 20px;
+   border-radius: 16px;
+}
+
+.box-diferenciais h3{
+   font-size: 28px;
+   color: black;
+   margin: 20px 0 ;
+
+}
+
+.box-diferenciais p {
+   font-size:18px;
+   margin-bottom: 29px;
+   color: rgb(37, 21, 61);
+}
+
+section.cta{
+   background-image: url('images/banner_meio.svg');
+   background-size: cover;
+   background-position: center;
+   padding: 20px 10px;
+   min-height: 200px;
+   color: white;
+   text-align: center;
+}
+
+section.cta h2,
+section.cta h4{
+   font-weight: normal;
+   margin: 20px 0;
+}
+
+section.cta h2{
+   font-size: 40px;
+}
+
+
+section.cta a{
+   display: inline-block;
+   padding: 20px 40px;
+   font-weight: bold;
+   font-size: 20px;
+   background: #5e86f6;
+   text-decoration: none;
+   color: rgb(2, 13, 78);
+   border-radius:10px;
+}
+
+.lista-beneficios{
+   width: 50%;
+margin-top: 220px;
+vertical-align: top;
+}
+
+.lista-beneficios h1{
+   color: #100707;
+   font-size: 50px;
+   margin-top: -110px;
+   margin-left: 70px;
+}
+
+.lista-beneficios p{
+  vertical-align: top;
+   font-size: 16px;
+
+}
+
+.lista-beneficios span{
+   display: inline-block;
+   width: calc(100% - 70px);
+   margin-top: -440px;
+}
+
+.img-beneficios{
+width: 50%;
+margin-left: 740px;
+margin-top: -470px;
+}
+
+.img-beneficios img{max-width: 100%;}
+
+.lista-beneficios img{
+   vertical-align: middle;
+   display: inline-block;
+   width: 70px;
+   
+}
+
+@media screen and (max-width: 768px) {
+   .box-diferenciais{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+   }
+
+   section.marcas {
+      text-align: center;
+   }
+
+   section.marcas img{
+      max-width: 100%;
+   }
+}
+
+   
